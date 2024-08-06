@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: linear-gradient(rgba(0,8,51,0.7),rgba(0,8,51,0.7)), url(cloud.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+   
+    
+}
+.container1{
+    position: relative;
+    /* border: 12px solid red; */
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.container1 h2{
+    font-weight: 100;
+    margin-top: 30px;
+}
+.container2{
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 40px;
+    border-radius: 30px;
+    /* border: 1px solid green; */
+    height: 65vh;
+    width: 30%;
+    backdrop-filter: blur(80px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.text{
+    /* border: 1px solid red; */
+    margin: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    
+}
+.text h3{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 30px;
+}
+.text p{
+    margin-top: 10px;
+    font-weight: 200;
+}
+.text h2{
+    margin-top: 20px;
+    font-size: 40px;
+}
+hr{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 20px;
+   
+}
+.prov{
+    /* border: 2px solid yellowgreen; */
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    
+}
+.prov p{
+    
+    margin-top: 15px;
+}
+span{
+    font-weight: 100;
+}
+button{
+    height: 50px;
+    width: 80%;
+    margin: 40px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 16px;
+    font-weight: 600;
+}
